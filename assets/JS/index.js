@@ -3,12 +3,18 @@
 document.addEventListener('DOMContentLoaded', () => {
   const game = new Game('game')
   const start = document.getElementById("start")
+  const play = document.getElementById("play")
   
   start.addEventListener("click", () => {
     document.getElementById("canvas-container").style.display = "flex"
     document.getElementById("start-screen").style.display = "none"
     game.start()
   })
+
+  play.addEventListener("click", () => {
+    game.start()
+  })
+  
   const stop = document.getElementById("pause")
   stop.addEventListener("click", () => {
     game.stop()
