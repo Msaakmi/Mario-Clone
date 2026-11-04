@@ -9,9 +9,9 @@ class Game {
     this.fps = FPS
     this.drawIntervalId = null
 
-    this.nubes = new Background(this.ctx, "assets/img/nubes.png", BG_VX/9)
-    this.montanas = new Background(this.ctx, "assets/img/montanas.png", BG_VX/12)
-    this.suelo = new Background(this.ctx, "assets/img/suelo.png", BG_VX/8)
+    this.nubes = new Background(this.ctx, "/Mario-Clone/assets/img/nubes.png", BG_VX/9)
+    this.montanas = new Background(this.ctx, "/Mario-Clone/assets/img/montanas.png", BG_VX/12)
+    this.suelo = new Background(this.ctx, "/Mario-Clone/assets/img/suelo.png", BG_VX/8)
     
     this.mario = new Mario(this.ctx, 20, 20)
     this.mario.groundTo(this.canvas.height - BG_FLOOR)
@@ -31,20 +31,20 @@ class Game {
       this.heart.isReady = true
     }
 
-    this.audio = new Audio("assets/audio/GameSong.mp3")
+    this.audio = new Audio("/Mario-Clone/assets/audio/GameSong.mp3")
     this.audio.volume = 0.5
     this.audio.loop = true
 
-    this.coinAudio = new Audio("assets/audio/coin.mp3")
+    this.coinAudio = new Audio("/Mario-Clone/assets/audio/coin.mp3")
     this.coinAudio.volume = 0.3
 
-    this.gameOverAudio = new Audio("assets/audio/death.mp3")
+    this.gameOverAudio = new Audio("/Mario-Clone/assets/audio/death.mp3")
     this.gameOverAudio.volume = 0.7
 
-    this.damageAudio = new Audio("assets/audio/damage.mp3")
+    this.damageAudio = new Audio("/Mario-Clone/assets/audio/damage.mp3")
     this.damageAudio.volume = 0.7
 
-    this.hurtAudio = new Audio ("assets/audio/classic_hurt.mp3")
+    this.hurtAudio = new Audio ("/Mario-Clone/assets/audio/classic_hurt.mp3")
     this.hurtAudio.volume = 0.7
   }
 

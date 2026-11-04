@@ -8,8 +8,8 @@ const MARIO_VY = 10
 const MARIO_AY = 0.4 // aceleracion como si fuera la gravedad
 const MARIO_W = 50
 const MARIO_H = 60
-const MARIO_SPRITE_RIGHT = "assets/img/sprite_dano.png"
-const MARIO_SPRITE_LEFT = "assets/img/Sprite356x453_left.png"
+const MARIO_SPRITE_RIGHT = "/Mario-Clone/assets/img/sprite_dano.png"
+const MARIO_SPRITE_LEFT = "/Mario-Clone/assets/img/Sprite356x453_left.png"
 
 const KEY_RIGHT = 39 // KeyCode de las flechas (teclas) del teclado
 const KEY_LEFT = 37
@@ -20,7 +20,7 @@ const SPACE = 32
 const BG_FLOOR = 75
 const BG_VX = 3
 
-const COIN_SPRITE = "assets/img/coin.png"
+const COIN_SPRITE = "/Mario-Clone/assets/img/coin.png"
 const COIN_W = 32
 const COIN_H = 32
 const COIN_SCORE = 100
@@ -35,10 +35,10 @@ const BEETLE_W = 400 / 4
 const BEETLE_H = 260 / 4
 const BEETLE_VX = 5
 const BEETLE_SCORE = 250
-const BEETLE_SPRITE = "assets/img/enemigo.png"
+const BEETLE_SPRITE = "/Mario-Clone/assets/img/enemigo.png"
 const BEETLE_COLFRAMES = 4
 const BEETLE_ROWFRAMES = 1
 
 const HEARTS_W = 42 / 2
 const HEARTS_H = 42 / 2
-const HEARTS_IMG = "assets/img/heart.png"
+const HEARTS_IMG = "/Mario-Clone/assets/img/heart.png"

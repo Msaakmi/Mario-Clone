@@ -52,7 +52,7 @@ class Mario {
     this.drawCount = 5
     this.damageFrames = 0
 
-    this.jumpAudio = new Audio("assets/audio/jump.mp3")
+    this.jumpAudio = new Audio("/Mario-Clone/assets/audio/jump.mp3")
     this.jumpAudio.volume = 0.1
   }
 
